@@ -1,21 +1,20 @@
 ---
 title: CV
-name: Marie
-surname: Curie
-position: "Professor"
-address: "School of Physics & Chemistry, École Normale Supérieure"
+name: David
+surname: Souto
+position: "Lecturer in Psychology"
+address: "School of Psychology and Vision Sciences, University of Leicester"
 phone: +1 22 3333 4444
-pronouns: she/her
-www: mariecurie.com
+www: https://davidsouto.github.io/wp/
 email: "Marie.Curie@ens.fr"
-twitter: mariecurie
-github: mariecurie
-linkedin: mariecurie
+twitter: https://twitter.com/david_souto
+github: https://github.com/DavidSouto
+linkedin: https://www.linkedin.com/in/david-souto-b5b61318/
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "Marie is a Polish and naturalized-French physicist and chemist who conducts pioneering research on radioactivity."
 output:
   vitae::markdowncv:
-    theme: kjhealy
+    theme: davewhipp #kjhealy # blmoore, davewhipp
 ---
 
 ```{r setup, include=FALSE}
@@ -66,3 +65,5 @@ knitr::write_bib(c("vitae", "tibble"), "packages.bib")
 bibliography_entries("packages.bib") %>%
   arrange(desc(author$family), issued)
 ```
+
+## Other things
