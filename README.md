@@ -5,7 +5,7 @@ A truly simple website template for academics. It was developed with simplicity 
 Just download the two files (index.html and photo.gif) and start editing straightaway.
 
 <img src="/img/frontpage.png" width="60%" height="60%">
-
+ 
 # I am keeping the original disclaimer here from Vasilios Mavroudis
 
 If you have suggestions for improvements feel free to make a pull request or open an issue.
